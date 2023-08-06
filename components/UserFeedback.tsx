@@ -16,7 +16,7 @@ const UserFeedback: React.FC<UserFeedbackProps> = ({name, profileImageUrl, isVer
           {isVerified ? <h3 className="text-primary-softPink">Verified Buyer</h3> : ""}
         </div>
       </div>
-      <p className="max-w-[29ch]">" {feedback} "</p>
+      <p className="max-w-[29ch]">{feedback}</p>
     </div>
   )
   }

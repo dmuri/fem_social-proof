@@ -24,24 +24,24 @@ export default function Home() {
             name="Colton Smith"
             profileImageUrl="/images/image-colton.jpg"
             isVerified={true}
-            feedback="We needed the same printed design as the one we had ordered a week prior. Not only did they find
-              the original order, but we also received in time. Excellent!"
+            feedback='" We needed the same printed design as the one we had ordered a week prior. Not only did they find
+              the original order, but we also received in time. Excellent! "'
             className="lg:self-start"
           />
           <UserFeedback
             name="Irene Roberts"
             profileImageUrl="/images/image-irene.jpg"
             isVerified={true}
-            feedback="Customer service is always excellent and very quick turn around. Completely delighted with the
-              simplicity of the purchase and the speed of delivery."
+            feedback='" Customer service is always excellent and very quick turn around. Completely delighted with the
+              simplicity of the purchase and the speed of delivery. "'
             className="lg:self-center"
           />
           <UserFeedback
             name="Anne Wallace"
             profileImageUrl="/images/image-anne.jpg"
             isVerified={true}
-            feedback="Put an order with this company and can only praise them for the very high standard. Will
-              definitely use them again and recommend them to everyone!"
+            feedback='" Put an order with this company and can only praise them for the very high standard. Will
+              definitely use them again and recommend them to everyone! "'
             className="lg:self-end"
           />
         </div>
